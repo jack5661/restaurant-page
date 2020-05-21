@@ -1,0 +1,84 @@
+body, html {
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+}
+
+.box {
+    display: block;
+    width: 1000px;
+    margin: 100px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+}
+
+#nav_bar {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.tabs {
+    float: right;
+    padding: 0px 16px 0px 16px;
+    font-family: "Damion", cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.tabs:hover {
+    color: rgb(253, 253, 53);
+}
+
+.title {
+    font-family: "Damion", cursive;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 0 12.5px 0 0;
+}
+
+.subtitle {
+    text-align: center;
+    color : white;
+    text-decoration : underline;
+    font-Family : cursive;
+}
+
+#hoursList {
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    display: block;
+}
+
+#hoursList > li {
+    font-family: cursive;
+    padding-bottom: 1em;
+}
+
+.menuTab {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foodTitle {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.foodText {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
